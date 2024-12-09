@@ -1,0 +1,23 @@
+{
+  "name": "learn_aiken",
+  "version": "1.0.0",
+  "description": "Write validators in the `validators` folder, and supporting functions in the `lib` folder using `.ak` as a file extension.",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@meshsdk/core": "^1.7.30",
+    "cbor": "^10.0.3",
+    "tsx": "^4.19.2"
+  },
+  "devDependencies": {
+    "@types/cbor": "^6.0.4"
+  }
+}
